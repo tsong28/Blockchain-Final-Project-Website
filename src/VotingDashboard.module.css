@@ -1,0 +1,57 @@
+/* VotingDashboard.module.css */
+
+.container {
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    background: #f9fafc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    background: #ffffff;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .listItem strong {
+    color: #34495e;
+  }
+  
+  .listItem span {
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+  }
+  
