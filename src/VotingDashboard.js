@@ -3,7 +3,7 @@ import { BrowserProvider, Contract } from 'ethers';
 import contractABI from './contractABI.json';
 import styles from './VotingDashboard.module.css';
 
-const CONTRACT_ADDRESS = '0x311CA98ca34873a243d5e18Bd2B6e8E3399cD8dA'; // Replace with your deployed contract address
+const CONTRACT_ADDRESS = '0x311CA98ca34873a243d5e18Bd2B6e8E3399cD8dA';
 
 const VotingDashboard = () => {
   const [candidates, setCandidates] = useState([]);
